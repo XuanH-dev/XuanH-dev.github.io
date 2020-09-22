@@ -1,0 +1,105 @@
+#container{
+    padding: 20px 20px 0px 20px;
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+.hinh_chu_nhat{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+}
+.nua_khoi{
+    width: 100%;
+    height: 50%;
+}
+
+/* thành phần trong khối thứ nhất */
+
+.khoi_trai{
+    width: 50%;
+    height: 400px;
+}
+
+.khoi_phai{
+    width: 50%;
+    height: 400px;
+}
+
+/* thanh phan trong khoi thứ hai */
+
+.khoi_trai2{
+    width: 50%;
+    height: 400px;
+}
+
+.khoi_phai2{
+    width:50% ;
+    height: 400px;
+    padding-left: 20px;
+}
+
+/* thanh phần trong khối thứ 3 */
+
+.khoi_trai3{
+    width: 33.33%;
+    height: 400px;
+}
+
+.khoi_trungtam1{
+    width: 33.33%;
+    height: 400px;
+}
+.khoi_phai3{
+    width: 33.33%;
+    height: 400px;
+}
+
+/* Thành phần trong khối thứ 4 */
+
+.khoi_trai4{
+    width: 33.33%;
+    height: 400px;
+}
+
+.khoi_trungtam3{
+    width: 33.33%;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.khoi_phai4{
+    width: 33.33%;
+    height: 400px;
+}
+
+/* Tô màu nền cho các khối */
+.do{
+    background-color: red;
+}
+
+.luc{
+    background-color: green;
+}
+
+.lam{
+    background-color: blue;
+}
