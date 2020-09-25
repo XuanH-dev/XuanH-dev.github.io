@@ -1,0 +1,167 @@
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(240,242,245);
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: #fff;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+}
+.logo{
+    width: 300px;
+    height: 106px;
+    position: relative;
+    left: -32px;
+}
+
+.tab{
+    width: 100%;
+    height: 80px;
+
+}
+.loibinh{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.khuon_logo_the{
+    width: 70%;
+    height: 536px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.khuon_face{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+}
+
+.khuon_logo{
+    width: 580px;
+    height: 266px;
+    position: relative;
+    top: 70px;
+}
+
+.khuon_dangnhap{
+    height: 456px;
+    width: 396px;
+    margin-left: 10px;
+}
+
+.dang_nhap{
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    text-align: center;
+}
+
+
+
+/* tao hinh ban tay khi hover vao */
+.nut{
+
+    cursor: pointer;
+    display: inline-block; 
+}
+.o_dang_nhap{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: white;
+    width: 332px;
+}
+
+.o_dang_nhap:hover{
+    opacity: 0.9;
+}
+.chu_thich{
+    position: relative;
+    top: 20px;
+    width: 396px;
+    height: 36px;
+    text-align: center;
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+.gach_ngang{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center
+}
+.chia_o{
+    width: 364px;
+    display: inline-block;
+    padding: 6px 0px;  
+    background-color: white;
+}
+
+.o_con{
+    width: 330px;
+    height: 52px;
+    
+}
+.o_con1{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    height: 52px;
+    vertical-align: middle;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+.pass{
+    background-color: white;
+
+}
+.creat{
+    background-color: #42b72a;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.creat:hover{
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
